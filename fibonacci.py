@@ -4,11 +4,9 @@
 def fibonacci():
     print ("programa que calcula el Fibonacci dado un numero")
     numero = int(input("Ingrese el numero a calcular: "))
-    a, b = 0, 1
-    i=0
+    a, b = 1, 2
     print(a)
-    while i < numero:
+    while b < numero:
           print(b)
           a, b = b, a+b
-          i = i+1
 fibonacci()
